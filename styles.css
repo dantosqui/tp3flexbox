@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Aileron&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    height:100%;
+}
+body{
+    background-color: rgb(224, 63, 63);
+    font-family: 'Aileron', sans-serif;
+    min-height: 100%;
+}
+h1, footer{
+    text-align: center;
+}
+h1{
+    position: sticky;
+    top: 0px;
+    background-color: inherit;
+}
+footer{
+    background-color: rgb(139, 15, 15);
+    height: 2em;
+    padding-top: 1.5em;
+    width: 100%;
+    position:absolute;
+    bottom: 0px;
+}
+
+nav{
+    margin: 0px 0px 5px 0px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(230, 255, 230);
+}
+
+li.navbar{
+    width: auto;
+    padding: 20px 40px 20px 40px;
+    height: 100%;
+    transition: background-color 0.5s ease;
+}
+li.navbar:hover{
+    background-color: rgb(255, 173, 230);
+}
+
+a{
+    color: rgb(224, 63, 63);
+    text-decoration: none;
+}
+
+img{
+    height: 200px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: min-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s all ease;
+    background-color: rgb(255, 207, 207);
+}
+
+.card:hover {
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.2);
+  }
+
+.container{
+    text-align: center;
+    padding: 6px;
+}
+#exhibicion{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+    flex-grow: 1;
+}
+
+#textboxContenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#textbox{
+    border: 1px solid rgb(241,140,127);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: x-large;
+    width: 65%;
+    background-color: rgb(241, 140, 127);
+}
+
+#contenedorVisitas{
+    min-height: 100%;
+    height: 100%;
+}
+#visitas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    height: 100%;
+}
+#visitas li{
+    list-style: none;
+}
