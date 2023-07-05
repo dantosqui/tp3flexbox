@@ -11,6 +11,7 @@ body{
     background-color: rgb(224, 63, 63);
     font-family: 'Aileron', sans-serif;
     min-height: 100%;
+    margin-bottom: 100px;
 }
 h1, footer{
     text-align: center;
@@ -81,7 +82,7 @@ img{
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 100px;
-    flex-grow: 1;
+    margin: 0 15px 0 15px;
 }
 
 #textboxContenedor{
@@ -113,4 +114,12 @@ img{
 }
 #visitas li{
     list-style: none;
+    transition: all 0.5s ease;
+    padding: 5px 5px 5px 5px;
+}
+#visitas li:hover{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(196, 111, 100);
+    border-color: inherit;
+    border-radius: 13px;
 }
