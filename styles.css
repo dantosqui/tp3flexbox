@@ -11,7 +11,7 @@ body{
     background-color: rgb(224, 63, 63);
     font-family: 'Aileron', sans-serif;
     min-height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 h1, footer{
     text-align: center;
@@ -26,7 +26,7 @@ footer{
     height: 2em;
     padding-top: 1.5em;
     width: 100%;
-    position:absolute;
+    position:fixed;
     bottom: 0px;
     margin-top: 40px;
 }
@@ -122,6 +122,10 @@ img{
     list-style: none;
     transition: all 0.5s ease;
     padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: stretch;
 }
 #visitas li:hover{
     background-color: rgb(196, 111, 100);
@@ -132,4 +136,17 @@ img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#imgs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+#imgs img{
+    width: 23%;    
+}
+
+.escudo{
+
 }
