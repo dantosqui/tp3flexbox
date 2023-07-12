@@ -22,12 +22,13 @@ h1{
     background-color: inherit;
 }
 footer{
-    background-color: rgb(139, 15, 15);
+    background-color: rgb(201, 34, 34);
     height: 2em;
     padding-top: 1.5em;
     width: 100%;
     position:absolute;
     bottom: 0px;
+    margin-top: 40px;
 }
 
 nav{
@@ -38,7 +39,7 @@ ul.navbar{
     list-style: none;
     justify-content: space-evenly;
     width: 100%;
-    background-color: rgb(230, 255, 230);
+    background-color: rgb(139, 15, 15);
 }
 
 li.navbar{
@@ -47,7 +48,7 @@ li.navbar{
     height: 100%;
     transition: background-color 0.5s ease;
 }
-li.navbar:hover{
+li.navbar:hover, .pagactual{
     background-color: rgb(255, 173, 230);
 }
 
@@ -83,6 +84,7 @@ img{
     justify-content: space-around;
     gap: 100px;
     margin: 0 15px 0 15px;
+    padding-bottom: 100px;
 }
 
 #textboxContenedor{
@@ -91,13 +93,17 @@ img{
     margin-top: 3%;
     margin-bottom: 3%;
 }
-#textbox{
+.textbox{
     border: 1px solid rgb(241,140,127);
     border-radius: 15px;
     padding: 15px;
     font-size: x-large;
     width: 65%;
     background-color: rgb(241, 140, 127);
+}
+#contenedorimgtextbox{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #contenedorVisitas{
@@ -118,8 +124,12 @@ img{
     padding: 5px 5px 5px 5px;
 }
 #visitas li:hover{
-    padding: 10px 30px 10px 30px;
     background-color: rgb(196, 111, 100);
     border-color: inherit;
     border-radius: 13px;
+}
+#textboxcontacto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
